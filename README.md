@@ -15,6 +15,7 @@ A curated list of papers and resources on Vision-Language-Action (VLA) models in
 ---
 
 ## Survey Papers
+- **A Survey on Vision-Language-Action Models for Embodied AI** (2024) [[paper](https://arxiv.org/abs/2405.14093)] [[code](https://github.com/yueen-ma/Awesome-VLA)]
 - **VLA: The Future of Embodied AI** (2024) [[paper](link)] [[code](link)]
 
 ## VLA Models

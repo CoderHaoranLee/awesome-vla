@@ -19,7 +19,7 @@ A curated list of papers and resources on Vision-Language-Action (VLA) models in
 
 ## VLA Models
 - **OpenVLA** (Google DeepMind, 2024) [[paper](link)] [[code](link)]
-- **pi0** (Meta, 2024) [[paper](link)] [[code](link)]
+- **$\pi_0$** ($\pi_0$, 2024) [[paper](link)] [[code](link)]
 
 ## Datasets
 - **LeRobot** (Meta, 2024) [[paper](link)] [[dataset](link)]

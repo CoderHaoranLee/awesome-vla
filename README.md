@@ -25,9 +25,21 @@ A curated list of papers and resources on Vision-Language-Action (VLA) models in
 <!-- - **VLA: The Future of Embodied AI** (2024) [[paper](link)] [[code](link)] -->
 
 ## VLA Models
+### Representation
+#### Color Image
 - **OpenVLA** (Google DeepMind, 2024) [[paper](link)] [[code](link)]
 - **$\pi_0$** ($\pi_0$, 2024) [[paper](link)] [[code](link)]
 
+#### Depth Image
+- **3D-VLA: A 3D Vision-Language-Action Generative World Model**, ICML 2024, [[paper](https://arxiv.org/abs/2403.09631)] [[web](https://vis-www.cs.umass.edu/3dvla)] [[code](https://github.com/UMass-Embodied-AGI/3D-VLA)]
+#### Point Cloud
+- **GeoVLA: Empowering 3D Representations in Vision-Language-Action Models**, Arxiv 2025, [[paper](https://arxiv.org/abs/2508.09071)] [[web](https://linsun449.github.io/GeoVLA/)]
+#### Tactile
+- **VTLA: Vision-Tactile-Language-Action Model with Preference Learning for Insertion Manipulation**, Arxiv 2025, [[paper](https://arxiv.org/abs/2505.09577v1)] [[web](https://sites.google.com/view/vtla)]
+- **Tactile-VLA: Unlocking Vision-Language-Action Model's Physical Knowledge for Tactile Generalization**, Arxiv 2025, [[paper](https://arxiv.org/abs/2507.09160)]
+- **OmniVTLA: Vision-Tactile-Language-Action Model with Semantic-Aligned Tactile Sensing**, Arxiv 2025, [[paper](https://arxiv.org/abs/2508.08706)]
+#### Force
+- **ForceVLA: Enhancing VLA Models with a Force-aware MoE for Contact-rich Manipulation**, Arxivv 2025, [[paper](https://arxiv.org/abs/2505.22159)]
 ## Datasets
 - **LeRobot** (Meta, 2024) [[paper](link)] [[dataset](link)]
 

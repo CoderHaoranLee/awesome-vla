@@ -60,6 +60,7 @@ A curated list of papers and resources on Vision-Language-Action (VLA) models in
 
 ### RL
 - **GRAPE: Generalizing Robot Policy via Preference Alignment**, Arxiv 2025, [[paper](https://arxiv.org/abs/2411.19309)] [[web](https://grape-vla.github.io/)] [[code](https://github.com/aiming-lab/grape)]
+- **What Can RL Bring to VLA Generalization? An Empirical Study**, Arxiv 2025, [[paper](https://arxiv.org/abs/2505.19789)] [[web](https://rlvla.github.io/)] [[code](https://github.com/gen-robot/RL4VLA)]
 ### Test-Time Scaling
 
 ## Evaluation

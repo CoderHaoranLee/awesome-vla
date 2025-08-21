@@ -42,7 +42,7 @@ A curated list of papers and resources on Vision-Language-Action (VLA) models in
 - **OmniVTLA: Vision-Tactile-Language-Action Model with Semantic-Aligned Tactile Sensing**, Arxiv 2025, [[paper](https://arxiv.org/abs/2508.08706)]
 
 #### Force
-- **ForceVLA: Enhancing VLA Models with a Force-aware MoE for Contact-rich Manipulation**, Arxivv 2025, [[paper](https://arxiv.org/abs/2505.22159)]
+- **ForceVLA: Enhancing VLA Models with a Force-aware MoE for Contact-rich Manipulation**, Arxiv 2025, [[paper](https://arxiv.org/abs/2505.22159)]
 
 
 ## Datasets
@@ -51,9 +51,16 @@ A curated list of papers and resources on Vision-Language-Action (VLA) models in
 
 ## Pre-training
 
+### Reasoning
+- **Action-Free Reasoning for Policy Generalization**, Arxiv 2025, [[paper](https://arxiv.org/abs/2502.03729)] [[web](https://rad-generalization.github.io/)] 
+
 
 ## Post-training
+### SFT
 
+### RL
+- **GRAPE: Generalizing Robot Policy via Preference Alignment**, Arxiv 2025, [[paper](https://arxiv.org/abs/2411.19309)] [[web](https://grape-vla.github.io/)] [[code](https://github.com/aiming-lab/grape)]
+### Test-Time Scaling
 
 ## Evaluation
 - **ALOHA Benchmark** (2023) [[paper](link)] [[website](link)]

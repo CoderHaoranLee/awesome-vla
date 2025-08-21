@@ -52,7 +52,16 @@ A curated list of papers and resources on Vision-Language-Action (VLA) models in
 ## Pre-training
 
 ### Reasoning
+
+- **Fast ECoT: Efficient Embodied Chain-of-Thought via Thoughts Reuse**, Arxiv 2025, [[paper](https://arxiv.org/abs/2506.07639)]
+
 - **Action-Free Reasoning for Policy Generalization**, Arxiv 2025, [[paper](https://arxiv.org/abs/2502.03729)] [[web](https://rad-generalization.github.io/)] 
+
+- **ThinkAct: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning**, Arxiv 2025, [[paper](https://arxiv.org/abs/2507.16815)] [[web](https://jasper0314-huang.github.io/thinkact-vla/)]
+
+- **Robot-R1: Reinforcement Learning for Enhanced Embodied Reasoning in Robotics**, Arxiv 2025, [[paper](https://arxiv.org/abs/2506.00070)]
+
+
 
 
 ## Post-training

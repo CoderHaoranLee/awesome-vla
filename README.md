@@ -51,6 +51,10 @@ A curated list of papers and resources on Vision-Language-Action (VLA) models in
 
 ## Pre-training
 
+### Phased training with cross domain data
+
+- **X-VLA: Soft-Prompted Transformer as Scalable Cross-Embodiment Vision-Language-Action Model**, Arxiv 2025, [[paper](https://arxiv.org/abs/2510.10274)] [[web](https://thu-air-dream.github.io/X-VLA/)] [[code](https://github.com/2toinf/X-VLA)] [[速读](./papers/pre-training/phased-training/x-vla.md)]
+
 ### Reasoning
 
 - **Fast ECoT: Efficient Embodied Chain-of-Thought via Thoughts Reuse**, Arxiv 2025, [[paper](https://arxiv.org/abs/2506.07639)]
@@ -62,7 +66,7 @@ A curated list of papers and resources on Vision-Language-Action (VLA) models in
 
 ## Memory
 
-**MemER: Scaling Up Memory for Robot Control via Experience Retrieval**, Arxiv 2025, [[paper](https://arxiv.org/abs/2510.20328)] [[web](https://jen-pan.github.io/memer/)] 
+**MemER: Scaling Up Memory for Robot Control via Experience Retrieval**, Arxiv 2025, [[paper](https://arxiv.org/abs/2510.20328)] [[web](https://jen-pan.github.io/memer/)] [[速读](./papers/memory/memer.md)]
 
 ## Post-training
 ### SFT

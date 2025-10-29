@@ -62,14 +62,23 @@ A curated list of papers and resources on Vision-Language-Action (VLA) models in
 
 ## Memory
 
+**MemER: Scaling Up Memory for Robot Control via Experience Retrieval**, Arxiv 2025, [[paper](https://arxiv.org/abs/2510.20328)] [[web](https://jen-pan.github.io/memer/)] 
 
 ## Post-training
 ### SFT
 
 ### RL
+
+#### Real-world
+
+#### Simulator
 - **GRAPE: Generalizing Robot Policy via Preference Alignment**, Arxiv 2025, [[paper](https://arxiv.org/abs/2411.19309)] [[web](https://grape-vla.github.io/)] [[code](https://github.com/aiming-lab/grape)]
 - **What Can RL Bring to VLA Generalization? An Empirical Study**, Arxiv 2025, [[paper](https://arxiv.org/abs/2505.19789)] [[web](https://rlvla.github.io/)] [[code](https://github.com/gen-robot/RL4VLA)]
+
+#### World Model
 - **VLA-RFT: Vision-Language-Action Reinforcement Fine-tuning with Verified Rewards in World Simulators**， Arxiv 2025, [[paper](https://arxiv.org/abs/2510.00406)] [[web](https://vla-rft.github.io/)] [[code](https://github.com/OpenHelix-Team/VLA-RFT)] [[速读](./papers/post-training/RFT/vla-rft.md)]
+
+
 ### Test-Time Scaling
 - **Verifier-free Test-Time Sampling for Vision Language Action Models**, Arxiv 2025, [[paper](https://arxiv.org/abs/2510.05681)] [[速读](./papers/post-training/TTS/mg-select.md)]
 ## Evaluation

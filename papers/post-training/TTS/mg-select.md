@@ -1,4 +1,7 @@
 # Verifier-free Test-Time Sampling for Vision Language Action Models
+大部分内容来源于alphaxiv
+
+![Overview of MG-Select](./images/mg-select.png)
 
 ## 核心贡献
 **MG-Select (Masking Distribution Guided Selection)** 的主要贡献可以总结为以下几点：
@@ -106,3 +109,91 @@ $$\text{KL}_{\text{both}} = \text{KL}\Big(\pi_\theta(\cdot | o_t, \emptyset, \em
 ### 总结
 
 条件掩码分布置信度巧妙地利用了VLA自身的能力，通过对比"有信息"vs"缺信息"的预测分布来量化置信度，无需任何外部模块，是一个优雅且有效的解决方案。
+
+
+## 关于训练需求的详细说明
+
+论文提出的方法有**两个版本**，训练需求不同：
+
+1. **MG-Select（无需训练）** ✅
+
+**完全不需要训练**，可以直接应用于任何预训练的自回归VLA：
+
+- 仅在推理时使用，是纯粹的测试时扩展方法
+- 直接利用模型现有能力生成条件掩码分布
+- 通过在推理时掩盖输入条件（文本/状态）来计算参考分布
+
+**论文原文（第2页）：**
+> "our research goal is to develop a test-time scaling framework for VLAs that leverages the model's internal properties **without requiring additional training or external modules**."
+
+**实验证据：**
+- Table 1显示"+ MG-Select"相比基线已有显著提升
+- Table 5(d)消融实验明确对比了"无训练"和"有训练"的效果
+
+2. **MG-Select*（可选的联合训练）** 🔄
+
+这是一个**增强版本**，通过联合训练策略进一步提升性能：
+
+#### 训练内容
+在目标数据集上微调时，对数据进行增强：
+
+$$\mathcal{L}_{\text{Joint-IL}}(\theta; \mathcal{D}) = -\mathbb{E}_{(o_t,q_t),a_{t:t+H},I)\sim\mathcal{D}} \left[\mathbb{E}_{(q_t^{(m)},I^{(m)})\in\mathcal{M}}\left[\log \pi_\theta(a_t | o_t, q_t^{(m)}, I^{(m)})\right]\right]$$
+
+其中掩码变体集合：
+$$\mathcal{M} = \{(q_t, I), (q_t, \emptyset), (\emptyset, I), (\emptyset, \emptyset)\}$$
+
+#### 具体做法（Appendix A.1）
+- 随机dropout 10%/10%/10%（文本/状态/双重掩码）的训练数据
+- 使模型同时学习条件分布和无条件分布
+- **训练配置与标准微调完全相同**，只是数据增强方式不同
+
+#### 为什么需要？
+**论文解释（第4页）：**
+> "existing VLAs are not trained under condition-masking settings, and directly masking inputs often leads to unintended actions."
+
+现有VLA没见过条件掩码的情况，直接掩盖输入可能产生不合理的动作分布。
+
+### 性能对比
+
+从Table 5(d)可以看到效果差异（RoboCasa 100 demos）：
+
+| 配置 | Pick-and-Place | All Tasks |
+|------|----------------|-----------|
+| 基线（无训练无TTS） | 17.0 | 40.2 |
+| MG-Select（无训练） | **22.6** | **43.7** |
+| 仅联合训练 | 28.5 | 42.7 |
+| MG-Select*（联合训练+TTS） | **31.0** | **48.1** |
+
+### 核心优势总结
+
+#### ✅ **无需训练版本的优势**
+1. **零额外成本**：可直接应用于任何预训练VLA
+2. **即插即用**：不需要访问训练数据或重新训练
+3. **已有显著提升**：22.6 vs 17.0（+33%相对提升）
+
+#### 🔄 **联合训练版本的优势**
+1. **更大提升**：31.0 vs 17.0（+82%相对提升）
+2. **训练成本低**：仅需在标准微调基础上修改数据增强策略
+3. **防止过拟合**：论文提到联合训练本身就有正则化效果
+
+### 与其他方法的对比
+
+这是MG-Select相比现有方法的关键优势：
+
+| 方法 | 需要训练外部模块 | 需要RL训练 | 需要合成数据 |
+|------|-----------------|-----------|-------------|
+| **Steering (Nakamoto et al., 2024)** | ✅ 需要价值函数 | ✅ 是 | ❌ |
+| **RoboMonkey (Kwok et al., 2025)** | ✅ 需要VLM验证器 | ❌ | ✅ 是 |
+| **MG-Select (本文)** | ❌ **无需** | ❌ | ❌ |
+| **MG-Select* (本文)** | ❌ **无需** | ❌ | ❌ |
+
+### 实际使用建议
+
+**如果你有预训练VLA但没有训练资源：**
+→ 直接用MG-Select，零成本获得显著提升
+
+**如果你本来就要在目标任务上微调：**
+→ 用MG-Select*，只需修改数据增强策略，获得最大提升
+
+**论文的核心卖点就是：**
+即使完全不训练，也能通过测试时扩展显著提升精度！🎯

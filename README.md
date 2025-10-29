@@ -79,7 +79,7 @@ A curated list of papers and resources on Vision-Language-Action (VLA) models in
 ### RL
 
 #### Real-world
-
+- **Improving Vision-Language-Action Model with Online Reinforcement Learning**, ICRA 2025, [[paper](https://arxiv.org/abs/2501.16664)]
 #### Simulator
 - **GRAPE: Generalizing Robot Policy via Preference Alignment**, Arxiv 2025, [[paper](https://arxiv.org/abs/2411.19309)] [[web](https://grape-vla.github.io/)] [[code](https://github.com/aiming-lab/grape)]
 - **What Can RL Bring to VLA Generalization? An Empirical Study**, Arxiv 2025, [[paper](https://arxiv.org/abs/2505.19789)] [[web](https://rlvla.github.io/)] [[code](https://github.com/gen-robot/RL4VLA)]

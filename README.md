@@ -84,8 +84,10 @@ A curated list of papers and resources on Vision-Language-Action (VLA) models in
 - **GRAPE: Generalizing Robot Policy via Preference Alignment**, Arxiv 2025, [[paper](https://arxiv.org/abs/2411.19309)] [[web](https://grape-vla.github.io/)] [[code](https://github.com/aiming-lab/grape)]
 - **What Can RL Bring to VLA Generalization? An Empirical Study**, Arxiv 2025, [[paper](https://arxiv.org/abs/2505.19789)] [[web](https://rlvla.github.io/)] [[code](https://github.com/gen-robot/RL4VLA)]
 - **VLA-RFT: Vision-Language-Action Reinforcement Fine-tuning with Verified Rewards in World Simulators**， Arxiv 2025, [[paper](https://arxiv.org/abs/2510.00406)] [[web](https://vla-rft.github.io/)] [[code](https://github.com/OpenHelix-Team/VLA-RFT)] [[速读](./papers/post-training/RFT/simulator/vla-rft.md)]
-
-
+- **SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning**, Arxiv 2025, [[paper](https://arxiv.org/abs/2509.09674)] [[code](https://github.com/PRIME-RL/SimpleVLA-RL)]
+- **VLA-RL: Towards Masterful and General Robotic Manipulation with Scalable Reinforcement Learning**, Arxiv 2025, [[paper](https://arxiv.org/abs/2505.18719)] [[code](https://github.com/GuanxingLu/vlarl)]
+- **TGRPO :Fine-tuning Vision-Language-Action Model via Trajectory-wise Group Relative Policy Optimization**, Arxiv 2025, [[paper](https://arxiv.org/abs/2506.08440)]
+- **RLinf-VLA: A Unified and Efficient Framework for VLA+RL Training**, Arxiv 2025, [[paper](https://arxiv.org/abs/2510.06710)]
 #### World Model
 
 - **Ctrl-World: A Controllable Generative World Model for Robot Manipulation**, Arxiv 2025, [[paper](https://arxiv.org/abs/2510.10125)] [[code](https://github.com/Robert-gyj/Ctrl-World)] [[速读](./papers/post-training/RFT/world-model/ctrl-world.md)]

@@ -53,6 +53,9 @@ A curated list of papers and resources on Vision-Language-Action (VLA) models in
 - **VTLA: Vision-Tactile-Language-Action Model with Preference Learning for Insertion Manipulation**, Arxiv 2025, [[paper](https://arxiv.org/abs/2505.09577v1)] [[web](https://sites.google.com/view/vtla)]
 - **Tactile-VLA: Unlocking Vision-Language-Action Model's Physical Knowledge for Tactile Generalization**, Arxiv 2025, [[paper](https://arxiv.org/abs/2507.09160)]
 - **OmniVTLA: Vision-Tactile-Language-Action Model with Semantic-Aligned Tactile Sensing**, Arxiv 2025, [[paper](https://arxiv.org/abs/2508.08706)]
+- **MLA: A Multisensory Language-Action Model for Multimodal Understanding and Forecasting in Robotic Manipulation**, Arxiv 2025, [[paper](https://arxiv.org/pdf/2509.26642)]
+
+
 
 #### Force
 - **ForceVLA: Enhancing VLA Models with a Force-aware MoE for Contact-rich Manipulation**, Arxiv 2025, [[paper](https://arxiv.org/abs/2505.22159)]
@@ -76,7 +79,7 @@ A curated list of papers and resources on Vision-Language-Action (VLA) models in
 - **Action-Free Reasoning for Policy Generalization**, Arxiv 2025, [[paper](https://arxiv.org/abs/2502.03729)] [[web](https://rad-generalization.github.io/)] 
 - **ThinkAct: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning**, Arxiv 2025, [[paper](https://arxiv.org/abs/2507.16815)] [[web](https://jasper0314-huang.github.io/thinkact-vla/)]
 - **Robot-R1: Reinforcement Learning for Enhanced Embodied Reasoning in Robotics**, Arxiv 2025, [[paper](https://arxiv.org/abs/2506.00070)]
-
+- **dVLA: Diffusion Vision-Language-Action Model with Multimodal Chain-of-Thought**, Arxiv 2025, [[paper](https://arxiv.org/abs/2509.25681)]
 
 ***
 

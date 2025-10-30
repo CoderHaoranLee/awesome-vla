@@ -24,6 +24,8 @@ A curated list of papers and resources on Vision-Language-Action (VLA) models in
 
 <!-- - **VLA: The Future of Embodied AI** (2024) [[paper](link)] [[code](link)] -->
 
+***
+
 ## World Models
 
 - **Ctrl-World: A Controllable Generative World Model for Robot Manipulation**, Arxiv 2025, [[paper](https://arxiv.org/abs/2510.20813)] [[web](https://3dgsworld.github.io/)] [[速读](./papers/world-model/gs-world.md)]
@@ -32,6 +34,8 @@ A curated list of papers and resources on Vision-Language-Action (VLA) models in
 - **Generative World Modelling for Humanoids1X World Model Challenge Technical Report - Team Revontuli**, Arxiv 2025, [[paper](https://arxiv.org/pdf/2510.07092)]
 - **World-in-World: World Models in a Closed-Loop World**, Arxiv 2025, [[paper](https://arxiv.org/abs/2510.18135)]
 - **GSWorld: Closed-Loop Photo-Realistic Simulation Suite for Robotic Manipulation**, Arxiv 2025, [[paper](https://arxiv.org/abs/2510.20813)] [[web](https://3dgsworld.github.io/)]
+
+***
 
 ## VLA Models
 ### Representation
@@ -53,10 +57,12 @@ A curated list of papers and resources on Vision-Language-Action (VLA) models in
 #### Force
 - **ForceVLA: Enhancing VLA Models with a Force-aware MoE for Contact-rich Manipulation**, Arxiv 2025, [[paper](https://arxiv.org/abs/2505.22159)]
 
+***
 
 ## Datasets
 - **LeRobot** (Meta, 2024) [[paper](link)] [[dataset](link)]
 
+***
 
 ## Pre-training
 
@@ -72,14 +78,17 @@ A curated list of papers and resources on Vision-Language-Action (VLA) models in
 - **Robot-R1: Reinforcement Learning for Enhanced Embodied Reasoning in Robotics**, Arxiv 2025, [[paper](https://arxiv.org/abs/2506.00070)]
 
 
+***
 
 ## Memory
 
 **MemER: Scaling Up Memory for Robot Control via Experience Retrieval**, Arxiv 2025, [[paper](https://arxiv.org/abs/2510.20328)] [[web](https://jen-pan.github.io/memer/)] [[速读](./papers/memory/memer.md)]
 
+***
 ## Post-training
 ### SFT
 
+---
 ### RL
 
 #### Real-world
@@ -116,6 +125,8 @@ A curated list of papers and resources on Vision-Language-Action (VLA) models in
 - **Ctrl-World: A Controllable Generative World Model for Robot Manipulation**, Arxiv 2025, [[paper](https://arxiv.org/abs/2510.10125)] [[code](https://github.com/Robert-gyj/Ctrl-World)] [[速读](./papers/post-training/RFT/world-model/ctrl-world.md)]
 - **World4RL: Diffusion World Models for Policy Refinement with Reinforcement Learning for Robotic Manipulation**, Arxiv 2025, [[paper](https://arxiv.org/abs/2509.19080)] [[web](https://world4rl.github.io/)]
 
+---
+
 ### Test-Time Scaling
 - **Verifier-free Test-Time Sampling for Vision Language Action Models**, Arxiv 2025, [[paper](https://arxiv.org/abs/2510.05681)] [[速读](./papers/post-training/TTS/mg-select.md)]
 - **RoboMonkey: Scaling Test-Time Sampling and Verification for Vision-Language-Action Models**, Arxiv 2025, [[paper](https://arxiv.org/abs/2506.17811)]
@@ -125,7 +136,7 @@ A curated list of papers and resources on Vision-Language-Action (VLA) models in
 - **Improving Robotic Foundation Models via Value Guidance**, CoRL 2024, [[paper](https://arxiv.org/abs/2410.13816)] [[web](https://nakamotoo.github.io/V-GPS/)] [[code](https://github.com/nakamotoo/V-GPS)]
 - **Learning Affordances at Inference-Time for Vision-Language-Action Models**, Arxiv 2025, [[paper](https://arxiv.org/abs/2510.19752)]
 
-
+***
 ## Evaluation
 
 ### Real-World

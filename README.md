@@ -119,8 +119,9 @@ A curated list of papers and resources on Vision-Language-Action (VLA) models in
 - **RLinf-VLA: A Unified and Efficient Framework for VLA+RL Training**, Arxiv 2025, [[paper](https://arxiv.org/abs/2510.06710)]
 - **Interactive Post-Training for Vision-Language-Action Models**, Arxiv 2025, [[paper](https://arxiv.org/abs/2505.17016)] [[code](https://github.com/Ariostgx/ript-vla)]
 - **PROGRESSIVE STAGE-AWARE REINFORCEMENT FORFINE-TUNING VISION-LANGUAGE-ACTION MODELS**, Underreview ICLR 2026, [[paper](https://openreview.net/attachment?id=qBcgyxDeMM&name=pdf)]
-
-
+- **Reinforcement Fine-Tuning of Flow-Matching Policies for Vision-Language-Action Models**, Arxiv 2025, [[paper](https://arxiv.org/pdf/2510.09976)]
+- **ReinFlow: Fine-tuning Flow Matching Policy with Online Reinforcement Learning**, Arxiv 2025, [[paper](https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/09dbaac9-e1ab-4e18-abf2-99ec82476290.pdf)]
+- **π_\texttt{RL}: Online RL Fine-tuning for Flow-based Vision-Language-Action Models***, Arxiv 2025, [[paper](https://arxiv.org/abs/2510.25889)] [[code](https://github.com/RLinf/RLinf)]
 
 
 #### World Model
@@ -138,6 +139,7 @@ A curated list of papers and resources on Vision-Language-Action (VLA) models in
 - **Inference-Time Policy Steering through Human Interactions**, Arxiv 2025, [[paper](https://arxiv.org/abs/2411.16627)] [[web](https://yanweiw.github.io/itps/)]
 - **Improving Robotic Foundation Models via Value Guidance**, CoRL 2024, [[paper](https://arxiv.org/abs/2410.13816)] [[web](https://nakamotoo.github.io/V-GPS/)] [[code](https://github.com/nakamotoo/V-GPS)]
 - **Learning Affordances at Inference-Time for Vision-Language-Action Models**, Arxiv 2025, [[paper](https://arxiv.org/abs/2510.19752)]
+- **VLA-Reasoner: Empowering Vision-Language-Action Models with Reasoning via Online Monte Carlo Tree Search**, Arxiv 2025, [[paper](https://arxiv.org/pdf/2509.22643)]
 
 ***
 ## Evaluation

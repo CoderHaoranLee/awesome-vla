@@ -72,6 +72,7 @@ A curated list of papers and resources on Vision-Language-Action (VLA) models in
 ### Phased training with cross domain data
 
 - **X-VLA: Soft-Prompted Transformer as Scalable Cross-Embodiment Vision-Language-Action Model**, Arxiv 2025, [[paper](https://arxiv.org/abs/2510.10274)] [[web](https://thu-air-dream.github.io/X-VLA/)] [[code](https://github.com/2toinf/X-VLA)] [[速读](./papers/pre-training/phased-training/x-vla.md)]
+- **VLA-Adapter: An Effective Paradigm for Tiny-Scale Vision-Language-Action Model**, Arxiv 2025, [[paper](https://arxiv.org/abs/2509.09372)]
 
 ### Reasoning
 
@@ -107,7 +108,7 @@ A curated list of papers and resources on Vision-Language-Action (VLA) models in
 - **ConRFT: A Reinforced Fine-tuning Method for VLA Models via Consistency Policy**, RSS 2025, [[paper](https://arxiv.org/abs/2502.05450)] [[web](https://cccedric.github.io/conrft/)] [[code](https://github.com/cccedric/conrft)] [[速读](https://www.jiqizhixin.com/articles/2025-04-18?from=synced&keyword=conrft)]
 - **RM-RL: Role-Model Reinforcement Learning for Precise Robot Manipulation**, Arxiv 2025, [[paper](https://arxiv.org/abs/2510.15189)]
 - **SARM: Stage-Aware Reward Modeling for Long Horizon Robot Manipulation**, Arxiv 2025, [[paper](https://arxiv.org/abs/2509.25358)] [[web](https://qianzhong-chen.github.io/sarm.github.io/)]
-- **Self-Improving Vision-Language-Action Models with Data Generation via Residual RL**, Underreview ICLR 2026, [[paper](https://openreview.net/forum?id=eUGoqrZ6Ea)]
+- **Self-Improving Vision-Language-Action Models with Data Generation via Residual RL**, Underreview ICLR 2026, [[paper](https://www.wenlixiao.com/self-improve-VLA-PLD/assets/doc/pld-fullpaper.pdf)]
 
 
 #### Simulator
@@ -122,6 +123,7 @@ A curated list of papers and resources on Vision-Language-Action (VLA) models in
 - **Reinforcement Fine-Tuning of Flow-Matching Policies for Vision-Language-Action Models**, Arxiv 2025, [[paper](https://arxiv.org/pdf/2510.09976)]
 - **ReinFlow: Fine-tuning Flow Matching Policy with Online Reinforcement Learning**, Arxiv 2025, [[paper](https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/09dbaac9-e1ab-4e18-abf2-99ec82476290.pdf)]
 - **π_\texttt{RL}: Online RL Fine-tuning for Flow-based Vision-Language-Action Models***, Arxiv 2025, [[paper](https://arxiv.org/abs/2510.25889)] [[code](https://github.com/RLinf/RLinf)]
+- **Reflection-Based Task Adaptation for Self-Improving VLA**, Arxiv 2025, [[paper](https://arxiv.org/abs/2510.12710)]
 
 
 #### World Model

@@ -109,6 +109,7 @@ A curated list of papers and resources on Vision-Language-Action (VLA) models in
 - **RM-RL: Role-Model Reinforcement Learning for Precise Robot Manipulation**, Arxiv 2025, [[paper](https://arxiv.org/abs/2510.15189)]
 - **SARM: Stage-Aware Reward Modeling for Long Horizon Robot Manipulation**, Arxiv 2025, [[paper](https://arxiv.org/abs/2509.25358)] [[web](https://qianzhong-chen.github.io/sarm.github.io/)]
 - **Self-Improving Vision-Language-Action Models with Data Generation via Residual RL**, Underreview ICLR 2026, [[paper](https://www.wenlixiao.com/self-improve-VLA-PLD/assets/doc/pld-fullpaper.pdf)]
+- **Human-in-the-loop Online Rejection Sampling for Robotic Manipulation**, Arxiv 2025, [[paper](https://arxiv.org/pdf/2510.26406)] [[web](https://hiors-project.github.io/)] [[code](https://github.com/hiors-project/hiors)]
 
 
 #### Simulator

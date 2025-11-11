@@ -110,7 +110,7 @@ A curated list of papers and resources on Vision-Language-Action (VLA) models in
 - **SARM: Stage-Aware Reward Modeling for Long Horizon Robot Manipulation**, Arxiv 2025, [[paper](https://arxiv.org/abs/2509.25358)] [[web](https://qianzhong-chen.github.io/sarm.github.io/)]
 - **Self-Improving Vision-Language-Action Models with Data Generation via Residual RL**, Underreview ICLR 2026, [[paper](https://www.wenlixiao.com/self-improve-VLA-PLD/assets/doc/pld-fullpaper.pdf)]
 - **Human-in-the-loop Online Rejection Sampling for Robotic Manipulation**, Arxiv 2025, [[paper](https://arxiv.org/pdf/2510.26406)] [[web](https://hiors-project.github.io/)] [[code](https://github.com/hiors-project/hiors)]
-
+- **Steering Your Diffusion Policy with Latent Space Reinforcement Learning**, Arxiv 2025, [[paper](https://arxiv.org/pdf/2506.15799)] [[web](https://diffusion-steering.github.io/)] [[code](https://github.com/ajwagen/dsrl)]
 
 #### Simulator
 - **GRAPE: Generalizing Robot Policy via Preference Alignment**, Arxiv 2025, [[paper](https://arxiv.org/abs/2411.19309)] [[web](https://grape-vla.github.io/)] [[code](https://github.com/aiming-lab/grape)]

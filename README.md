@@ -125,6 +125,7 @@ A curated list of papers and resources on Vision-Language-Action (VLA) models in
 - **ReinFlow: Fine-tuning Flow Matching Policy with Online Reinforcement Learning**, Arxiv 2025, [[paper](https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/09dbaac9-e1ab-4e18-abf2-99ec82476290.pdf)]
 - **π_\texttt{RL}: Online RL Fine-tuning for Flow-based Vision-Language-Action Models***, Arxiv 2025, [[paper](https://arxiv.org/abs/2510.25889)] [[code](https://github.com/RLinf/RLinf)]
 - **Reflection-Based Task Adaptation for Self-Improving VLA**, Arxiv 2025, [[paper](https://arxiv.org/abs/2510.12710)]
+- **RFTF: Reinforcement Fine-tuning for Embodied Agents with Temporal Feedback**, Arxiv 2025, [[paper](https://arxiv.org/abs/2505.19767)]
 
 
 #### World Model

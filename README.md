@@ -111,6 +111,7 @@ A curated list of papers and resources on Vision-Language-Action (VLA) models in
 - **Self-Improving Vision-Language-Action Models with Data Generation via Residual RL**, Underreview ICLR 2026, [[paper](https://www.wenlixiao.com/self-improve-VLA-PLD/assets/doc/pld-fullpaper.pdf)]
 - **Human-in-the-loop Online Rejection Sampling for Robotic Manipulation**, Arxiv 2025, [[paper](https://arxiv.org/pdf/2510.26406)] [[web](https://hiors-project.github.io/)] [[code](https://github.com/hiors-project/hiors)]
 - **Steering Your Diffusion Policy with Latent Space Reinforcement Learning**, Arxiv 2025, [[paper](https://arxiv.org/pdf/2506.15799)] [[web](https://diffusion-steering.github.io/)] [[code](https://github.com/ajwagen/dsrl)]
+- **π^{*}_{0.6}: a VLA That Learns From Experience**, Arxiv 2025, [[paper](https://arxiv.org/abs/2511.14759)] [[web](https://www.pi.website/blog/pistar06)]
 
 #### Simulator
 - **GRAPE: Generalizing Robot Policy via Preference Alignment**, Arxiv 2025, [[paper](https://arxiv.org/abs/2411.19309)] [[web](https://grape-vla.github.io/)] [[code](https://github.com/aiming-lab/grape)]
@@ -136,6 +137,7 @@ A curated list of papers and resources on Vision-Language-Action (VLA) models in
 - **Reinforcing Action Policies by Prophesying**, Arxiv 2025, [[paper](https://arxiv.org/abs/2511.20633)]
 - **SRPO: Self-Referential Policy Optimization for Vision-Language-Action Models**, Arxiv 2025, [[paper](https://arxiv.org/abs/2511.15605)]
 - **World-Env: Leveraging World Model as a Virtual Environment for VLA Post-Training**, Arxiv 2025, [[paper](https://arxiv.org/abs/2509.24948)]
+- **NORA-1.5: A Vision-Language-Action Model Trained using World Model- and Action-based Preference Rewards**, Arxiv 2025, [[paper](https://arxiv.org/abs/2511.14659)]
 
 ---
 

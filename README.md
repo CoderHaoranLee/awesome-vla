@@ -126,12 +126,16 @@ A curated list of papers and resources on Vision-Language-Action (VLA) models in
 - **π_\texttt{RL}: Online RL Fine-tuning for Flow-based Vision-Language-Action Models***, Arxiv 2025, [[paper](https://arxiv.org/abs/2510.25889)] [[code](https://github.com/RLinf/RLinf)]
 - **Reflection-Based Task Adaptation for Self-Improving VLA**, Arxiv 2025, [[paper](https://arxiv.org/abs/2510.12710)]
 - **RFTF: Reinforcement Fine-tuning for Embodied Agents with Temporal Feedback**, Arxiv 2025, [[paper](https://arxiv.org/abs/2505.19767)]
+- **RLRC: Reinforcement Learning-based Recovery for Compressed Vision-Language-Action Models**, Arxiv 2025, [[paper](https://arxiv.org/pdf/2506.17639)]
 
 
 #### World Model
 - **VLA-RFT: Vision-Language-Action Reinforcement Fine-tuning with Verified Rewards in World Simulators**， Arxiv 2025, [[paper](https://arxiv.org/abs/2510.00406)] [[web](https://vla-rft.github.io/)] [[code](https://github.com/OpenHelix-Team/VLA-RFT)] [[速读](./papers/post-training/RFT/simulator/vla-rft.md)]
 - **Ctrl-World: A Controllable Generative World Model for Robot Manipulation**, Arxiv 2025, [[paper](https://arxiv.org/abs/2510.10125)] [[code](https://github.com/Robert-gyj/Ctrl-World)] [[速读](./papers/post-training/RFT/world-model/ctrl-world.md)]
 - **World4RL: Diffusion World Models for Policy Refinement with Reinforcement Learning for Robotic Manipulation**, Arxiv 2025, [[paper](https://arxiv.org/abs/2509.19080)] [[web](https://world4rl.github.io/)]
+- **Reinforcing Action Policies by Prophesying**, Arxiv 2025, [[paper](https://arxiv.org/abs/2511.20633)]
+- **SRPO: Self-Referential Policy Optimization for Vision-Language-Action Models**, Arxiv 2025, [[paper](https://arxiv.org/abs/2511.15605)]
+- **World-Env: Leveraging World Model as a Virtual Environment for VLA Post-Training**, Arxiv 2025, [[paper](https://arxiv.org/abs/2509.24948)]
 
 ---
 

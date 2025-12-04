@@ -139,8 +139,9 @@ A curated list of papers and resources on Vision-Language-Action (VLA) models in
 - **SRPO: Self-Referential Policy Optimization for Vision-Language-Action Models**, Arxiv 2025, [[paper](https://arxiv.org/abs/2511.15605)]
 - **World-Env: Leveraging World Model as a Virtual Environment for VLA Post-Training**, Arxiv 2025, [[paper](https://arxiv.org/abs/2509.24948)]
 - **NORA-1.5: A Vision-Language-Action Model Trained using World Model- and Action-based Preference Rewards**, Arxiv 2025, [[paper](https://arxiv.org/abs/2511.14659)]
+- **WMPO: World Model-based Policy Optimization for Vision-Language-Action Models**, Arxiv 2025, [[paper](https://arxiv.org/pdf/2511.09515)] [[web](https://wm-po.github.io/)] [[code](https://github.com/WM-PO/WMPO)]
 
----
+
 
 ### Test-Time Scaling
 - **Verifier-free Test-Time Sampling for Vision Language Action Models**, Arxiv 2025, [[paper](https://arxiv.org/abs/2510.05681)] [[速读](./papers/post-training/TTS/mg-select.md)]
@@ -163,6 +164,7 @@ A curated list of papers and resources on Vision-Language-Action (VLA) models in
 - **1X World Model: Evaluating Bits, not Atoms**, 2025, [[paper](https://www.1x.tech/1x-world-model.pdf)] [[code](https://github.com/1x-technologies/1xgpt)]
 - **Vid2World: crafting video diffusion models to interactive world models**, Arxiv 2025, [[paper](https://arxiv.org/abs/2505.14357)]
 - **WorldEval: World Model as Real-World Robot Policies Evaluator**, Arxiv 2025, [[paper](https://arxiv.org/abs/2505.19017)] [[web](https://worldeval.github.io/)] [[code](https://github.com/liyaxuanliyaxuan/Worldeval)]
+- **Scalable Policy Evaluation with Video World Models**, Arxiv 2025, [[paper](https://arxiv.org/pdf/2511.11520)]
 ---
 
 ## Contributing

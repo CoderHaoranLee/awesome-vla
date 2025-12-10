@@ -140,6 +140,7 @@ A curated list of papers and resources on Vision-Language-Action (VLA) models in
 - **World-Env: Leveraging World Model as a Virtual Environment for VLA Post-Training**, Arxiv 2025, [[paper](https://arxiv.org/abs/2509.24948)]
 - **NORA-1.5: A Vision-Language-Action Model Trained using World Model- and Action-based Preference Rewards**, Arxiv 2025, [[paper](https://arxiv.org/abs/2511.14659)]
 - **WMPO: World Model-based Policy Optimization for Vision-Language-Action Models**, Arxiv 2025, [[paper](https://arxiv.org/pdf/2511.09515)] [[web](https://wm-po.github.io/)] [[code](https://github.com/WM-PO/WMPO)]
+- **RoboScape-R: Unified Reward-Observation World Models for Generalizable Robotics Training via RL**, Arxiv 2025, [[paper](https://arxiv.org/pdf/2512.03556)]
 
 
 
@@ -152,6 +153,7 @@ A curated list of papers and resources on Vision-Language-Action (VLA) models in
 - **Improving Robotic Foundation Models via Value Guidance**, CoRL 2024, [[paper](https://arxiv.org/abs/2410.13816)] [[web](https://nakamotoo.github.io/V-GPS/)] [[code](https://github.com/nakamotoo/V-GPS)]
 - **Learning Affordances at Inference-Time for Vision-Language-Action Models**, Arxiv 2025, [[paper](https://arxiv.org/abs/2510.19752)]
 - **VLA-Reasoner: Empowering Vision-Language-Action Models with Reasoning via Online Monte Carlo Tree Search**, Arxiv 2025, [[paper](https://arxiv.org/pdf/2509.22643)]
+- **Steering Vision-Language-Action Models as Anti-Exploration: A Test-Time Scaling Approach**, Arxiv 2025, [[paper](https://arxiv.org/pdf/2512.02834)]
 
 ***
 ## Evaluation
